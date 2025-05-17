@@ -1,0 +1,114 @@
+body {
+    padding: 70px 20px 20px 20px; /* top, right, bottom, left */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #242323;
+    color: #e0e0e0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  
+  h1 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  #searchInput {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 16px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #222;
+    color: #eee;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.8);
+  }
+  
+  #searchInput::placeholder {
+    color: #888;
+  }
+  
+  #leaderboard {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.9);
+  }
+  
+  #leaderboard div {
+    padding: 10px 15px;
+    border-bottom: 1px solid #333;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ccc;
+  }
+  
+  #leaderboard div:last-child {
+    border-bottom: none;
+  }
+  
+  #leaderboard div.gold {
+    color: #ffd700; /* zlatá */
+    font-weight: bold;
+    text-shadow: 0 0 0px #ffd700aa;
+  }
+  
+  #leaderboard div.silver {
+    color: #c0c0c0; /* stříbrná */
+    font-weight: bold;
+    text-shadow: 0 0 0px #c0c0c0aa;
+  }
+  
+  #leaderboard div.bronze {
+    color: #cd7f32; /* bronzová */
+    font-weight: bold;
+    text-shadow: 0 0 0px #cd7f32aa;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(to right, #5500ff, #2bf7ff);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Aby byl text vlevo, obrázek vpravo */
+    padding: 0 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    z-index: 999;
+  }
+  
+  .navbar-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    user-select: none;
+  }
+  
+  
+  
+  /* Tady přidáme vertical alignment fix */
+  #profileIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: default;
+    user-select: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    margin-right: 50px
+  }
+  
+  
+  
+  
+  
